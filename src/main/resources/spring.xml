@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- bean definitions here -->
+
+
+<!--1.XML based injection-->
+<!--    <bean class="Demo.Doctor" id="doctor">-->
+<!--&lt;!&ndash;        <property name="qualification" value="MBBS by property"></property> &lt;!&ndash;provides value of the property&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="nurse" ref="Nurse"></property>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        either use property or constructor arg &ndash;&gt;-->
+<!--        <constructor-arg value="MBBS by constructor"></constructor-arg>&lt;!&ndash;means we have a constructor with one value for doctor class&ndash;&gt;-->
+<!--    </bean>-->
+<!--    -->
+<!--    <bean class="Demo.Nurse" id="nurse"></bean>-->
+
+
+<!--2.Annotion based injection    -->
+    <context:component-scan base-package="demo"></context:component-scan>
+
+
+<!--  3.  in java configation what is in the xml that should be present-->
+
+
+
+</beans>

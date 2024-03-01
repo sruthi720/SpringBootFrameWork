@@ -1,2 +1,8 @@
-package Demo;public interface Staff {
+package Demo;
+
+public interface Staff {
+
+
+    void assist();
+
 }
